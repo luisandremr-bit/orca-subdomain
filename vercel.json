@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://orca-serv-production.up.railway.app/:path*"
+      "source": "/(.*)",
+      "destination": "https://orca-serv-production.up.railway.app/$1"
     }
   ]
 }
